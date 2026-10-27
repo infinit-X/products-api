@@ -18,6 +18,7 @@ public class Product {
         return id;
     }
 
+    // Verified in Activity 3: removing this getter causes Jackson to omit 'name' from JSON
     public String getName() {
         return name;
     }
